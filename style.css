@@ -1,0 +1,178 @@
+* {
+  font-family: 'poppins';
+  margin: 0px;
+  padding: 0px;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpapercrafter.com/desktop/206660-mountain-travelling-travel-and-adventure-hd.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.homecap>h2 {
+  font-size: 100px;
+  display: flex;
+  justify-content: end;
+  margin-top: 100px;
+  margin-right: 100px;
+
+}
+
+.small-div {
+  height: 25px;
+  background-color: #254160;
+}
+
+.first {
+  background-color: #fff;
+
+  border-radius: 0.3rem;
+
+  overflow: hidden;
+  box-shadow: 0 0rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.first:hover {
+  transform: translateY(-1.2%);
+  box-shadow: 0 0rem 6rem rgba(0, 0, 0, 0.5);
+}
+
+
+
+.for-bg-clr {
+  background-color: #23303f;
+
+}
+
+.h-color>h1 {
+  color: #1c243b;
+}
+
+
+
+.card-body>p {
+  color: #1c243b
+}
+
+.card-body>h5 {
+  color: #254160;
+}
+
+.card-body>a {
+  color: #e74008;
+}
+
+.carousel-item>img {
+  height: 600px;
+}
+
+.embed>img {
+  height: 440px;
+  width: 330px;
+ 
+}
+
+.imgg {
+  height: 191.1px;
+}
+
+.img {
+  height: 265.55px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #23303f;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer {
+  background-color: #1c243b;
+}
+
+.footer-clr {
+  color: white;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.headings {
+  color: #e74008;
+}
+
+@media (max-width :600px) {
+  .carousel-item>img {
+    height: 300px;
+  }
+
+  .card:active .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+}
+
+  .star{
+    color: #e74008;
+  }
+  .messi{
+    height:190.4px;
+  }
+  .sanchu{
+    height:190.4px;
+  }
+  .mammotty{
+    height:190.4px;
+  }
+footer a:hover{
+  color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  border-radius: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #23303f;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #e74008;
+}
